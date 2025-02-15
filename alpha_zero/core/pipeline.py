@@ -694,7 +694,7 @@ def run_evaluator_loop(
     var_ckpt: mp.Value,
     stop_event: mp.Event,
 ) -> None:
-    """Evaluate the latest neural network by paying against network from last checkpoint.
+    """Evaluate the latest neural network by playing against network from last checkpoint.
     Also compute the prediction accuracy on human games if applicable.
     """
     assert num_simulations > 1
