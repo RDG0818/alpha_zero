@@ -77,7 +77,7 @@ flags.DEFINE_bool(
     'argument_data',
     True,
     'Apply random rotation and mirroring to the training data, default on.',
-)#HERE
+)
 flags.DEFINE_bool('compress_data', False, 'Compress state when saving in replay buffer, default off.')
 
 flags.DEFINE_integer('num_actors', 32, 'Number of self-play actor processes.')
